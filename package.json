@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
     "lodash": "^4.17.4",
     "webpack": "^3.5.2"
   },
-  "scripts" : {
-    "build" : "webpack --config webpack.config.js"
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
   }
 }
