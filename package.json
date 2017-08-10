@@ -1,5 +1,8 @@
 {
   "name": "hmr_test",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "webpack": "^3.5.2"
+  }
 }
