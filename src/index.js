@@ -1,3 +1,4 @@
+require('./index.css');
 import _ from 'lodash';
 import $ from 'jquery';
 import * as messageGenerator from './messageGenerator';
