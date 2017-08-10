@@ -1,9 +1,14 @@
 import _ from 'lodash';
+import $ from 'jquery';
+import * as messageGenerator from './messageGenerator';
 
-const component = () => {
-  const element = document.createElement('div');
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  return element;
-}
 
-document.body.appendChild(component());
+$(() => {
+  console.log("loaded");
+
+  $('body').append('<p id="display">...</display');
+
+  window.setInterval(() => {
+    $('#display').text(messageGenerator.generate());
+  }, 250);
+});
