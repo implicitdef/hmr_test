@@ -10,10 +10,12 @@
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "style-loader": "^0.18.2",
-    "webpack": "^3.5.2"
+    "webpack": "^3.5.2",
+    "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "build-w": "webpack --config webpack.config.js --watch"
+    "build-w": "webpack --config webpack.config.js --watch",
+    "build-dev-server": "webpack-dev-server --config webpack.config.js"
   }
 }
